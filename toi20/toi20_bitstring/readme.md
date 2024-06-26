@@ -1,5 +1,5 @@
 ## toi20_bitstring
-
+[problem statement](https://api.otog.in.th/problem/doc/1016)
 <details>
   <summary>subtask 1,2 solution</summary>
   <p><ins>idea</ins>: </p>
@@ -96,3 +96,5 @@
     <li>$O(N*2^N)$ เนื่องจากในแต่ละ state ใช้เวลาคำนวณ N และมีทั้งหมด $2^N$ state </li>
   </ul>
 </details>
+
+[ac code](./toi20_bitstring.cpp) 
