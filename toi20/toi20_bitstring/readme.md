@@ -12,7 +12,9 @@
   <ul>
     <li>ในแต่ละคำถาม เนื่องจากเราต้องคำนวณทุกความเป็นไปได้ เราต้องใช้เวลา N! เรามี Q คำถาม จึงต้องใช้ time complexity O(N!*Q) ซึ่งจะใช้เวลาเกินขอบเขตของโจทย์</li>
   </ul>
-  <p></p>&emsp;Insert photo
+  <p></p>&emsp;![test](https://github.com/packmani/toi-posn-com-guide/assets/40173086/66a820e5-b022-4e46-af4d-ed540f64fc6d)
+
+)
 </details>
 
 <details>
