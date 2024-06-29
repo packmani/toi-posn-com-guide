@@ -1,5 +1,5 @@
 //TOI20-Tour
-//sol แบบนี้ไม่ดีเลยครับ
+//sol แบบไม่ควรจะถูกต้อง
 #include <bits/stdc++.h>
 #define S second
 #define F first
