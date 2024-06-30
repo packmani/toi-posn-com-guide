@@ -16,7 +16,6 @@ using namespace std;
 int32_t main() {
     fast;
     int n,m;cin >> n >> m;
-    int cp = 0;
     vector<vector<int>> adj(m,vector<int>(n));
     vector<vector<int>> vis(m,vector<int>(n,0));
     for(int i=0;i<m;i++){
@@ -29,7 +28,6 @@ int32_t main() {
     for(int i=0;i<m;i++){
         for(int j=0;j<n;j++){
             if(!vis[i][j] && adj[i][j]){
-                cp++;
                 vis[i][j] = 1;
                 int minx = 1e18,maxx = -1e18,miny = 1e18,maxy = -1e18,count = 1;
                 queue<pii> q;
