@@ -1,5 +1,13 @@
 ## toi19_range
 
+  
+
+
+ <video width="600" height="320" controls loop muted autoplay playsinline>
+    <source src="../patience_sorting.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+        
 <details>
   <summary>hints</summary>
   <ul>
@@ -41,9 +49,8 @@
       <li>เราจะใช้หลักการของ patience sorting มาใช้ในการหา ความยาวของ longest non-decreasing subsequence (คล้ายๆกับ LIS แต่ element ซ้ำกันได้) โดยทำการ loop จากซ้ายมาขวาแล้วนำตัวเลข x ไปใส่บนกองซ้อน ที่มี <mark>element ด้านบนสุด > x</mark> ที่อยู่ซ้ายที่สุด ถ้าไม่มีเลขด้านบนที่ว่า ก็สร้าง stack ใหม่ที่มีแค่ x </li>
       <li>จากการสังเกตเราจะพบว่าเราสามารถนำ x ไปต่อกับตัวเลขที่อยู่ด้านบนสุดที่อยู่ในกองซ้อนด้านหน้ากองซ้อนของ x ได้ <br>เพราะฉะนั้นถ้าเรา run algorithm นี้จนจบเราจะได้ความยาวของ longest non-decreasing subsequence เป็นจำนวนของกองซ้อนทั้งหมด </li>
       <li>ในการหาตำแหน่งของกองซ้อนที่เราจะใส่ x เราสามารถใช้ binary search ได้, binary search บน array ของ element ที่อยู่บนสุดของแต่ละกองซ้อนเพื่อหา <mark>ตำแหน่งแรกที่ > x (upper_bound)</mark> เนื่องจาก array ของ element บนสุด sort จากน้อยไปมากเสมอ</li>
-        <video width="600" controls loop muted autoplay playsinline>
-           <source src="https://github.com/packmani/toi-posn-com-guide/assets/40173086/d07aaf50-2161-4285-87d0-edd87c80925f.mp4" type="video/mp4">
-        </video> 
+          <video src="https://github.com/packmani/toi-posn-com-guide/assets/40173086/da727dac-05a0-46b7-a3bf-6977f3b81688" 
+            width="600" autoplay></video>                  
       <li>แต่เราต้องการหาความยาวของ longest non-increasing subsequence ซึ่งก็สามารถทำได้โดยการ flip เลขจากจำนวนบวกไปเป็นจำนวนลบแล้วทำการ binary search N รอบ เพื่อหาความยาวของ longest non-decreasing subsequence ทำให้มี TC = $O(N\log N)$</li>
       </ul>
     </details>
