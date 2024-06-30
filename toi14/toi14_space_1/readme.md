@@ -37,7 +37,7 @@
 
 <details>
   <summary>prerequisites</summary>
-  <p><ins>bitmask dp</ins>, binary numbers, bitwise operators, dynamic programming,</p>
+  <p>BFS, DFS, math</p>
 </details>
 
 <details>
