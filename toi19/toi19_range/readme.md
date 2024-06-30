@@ -1,13 +1,5 @@
 ## toi19_range
-
-  
-
-
- <video width="600" height="320" controls loop muted autoplay playsinline>
-    <source src="../patience_sorting.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video> 
-        
+[problem statement](https://programming.in.th/tasks/toi19_range)
 <details>
   <summary>hints</summary>
   <ul>
@@ -74,3 +66,8 @@
     </details>
   </ul>
 </details>
+
+
+[ac code (binary search)](./toi19_range_bsearch.cpp) 
+
+[ac code (fenwick tree)](./toi19_range_fenwick.cpp) 
