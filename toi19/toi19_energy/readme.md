@@ -29,4 +29,4 @@
   </p>
 </details>
 
-[ac code](empty)
+[ac code](./toi19_energy.cpp)
