@@ -1,5 +1,5 @@
 ## toi1_plate
-[problem statement](empty)
+[problem statement](https://programming.in.th/tasks/toi1_plate)
 
 <details>
   <summary>hints</summary>
@@ -51,4 +51,4 @@
 </details>
 
 
-[ac code](empty)
+[ac code](./toi01_plate.cpp)
