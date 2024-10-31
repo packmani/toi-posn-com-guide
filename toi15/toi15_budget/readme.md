@@ -49,4 +49,5 @@
   </ul>
 </details>
 
-[ac code](./toi15_budget.cpp)
+[ac code sol2](./toi15_budget_bsearch.cpp) <br>
+[ac code sol3](./toi15_budget_fenwick.cpp)
