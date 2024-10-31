@@ -3,8 +3,8 @@
 
 <details>
   <summary>Variable definition</summary>
-  <p><ins>N</ins> - จำนวนชิ้นของไส้อั่วทั้งหมด</p>
-  <p><ins>D_i</ins> - ค่าความอร่อยของไส้อั่วชิ้นที่ i</p>
+  <p>$N$ - จำนวนชิ้นของไส้อั่วทั้งหมด</p>
+  <p>$D_i$ - ค่าความอร่อยของไส้อั่วชิ้นที่ i</p>
 </details>
 
 <details>
