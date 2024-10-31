@@ -47,7 +47,7 @@
     <p>จากภาพ เราจะสามารถแบ่งกรอบเป็น 4 ส่วนได้คือ $h_1, h_2, v_1, v_2$ โดยที่ $k$ เป็นขนาดของกรอบ</p>
     <p>∙ $h_1 = \sum[(i, j-k+1) \rightarrow (i, j)] = qs_0(i, j) - qs_0(i, j-k)$</p>
     <p>∙ $h_2 = \sum[(i-k+1, j-k+1) \rightarrow (i-k+1, j)] = qs_0(i-k+1, j) - qs_0(i-k+1, j-k)$</p>
-    <p>∙ $v_1 = \sum \begin{array}{c} (i-k+1, j) \\ \downarrow \\ (i, j) \end{array} = qs_1(j, i) - qs_1(j, i-k)$</p>
+    <p>∙ $v_1 = \sum \begin{array}{c} (i-k+1, j) \\ \&#8615 \\ (i, j) \end{array} = qs_1(j, i) - qs_1(j, i-k)$</p>
   </details>
 
   <details>
