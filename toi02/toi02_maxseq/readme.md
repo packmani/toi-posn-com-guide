@@ -1,5 +1,5 @@
 ## toi2_maxseq
-[problem statement]()
+[problem statement](https://programming.in.th/tasks/toi2_maxseq)
 
 <details>
   <summary>hints</summary>
@@ -29,4 +29,4 @@
 
 </details>
 
-[ac code]()
+[ac code](./toi02_maxseq.cpp)
