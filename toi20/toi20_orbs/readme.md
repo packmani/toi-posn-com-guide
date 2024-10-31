@@ -1,5 +1,5 @@
 ## toi20_orbs
-[problem statement](empty)
+[problem statement](https://api.otog.in.th/problem/doc/1013)
 
 <details>
   <summary>hints</summary>
@@ -39,4 +39,4 @@
   </ul>
 </details>
 
-[ac code](empty)
+[ac code](./toi20_orbs.cpp)
