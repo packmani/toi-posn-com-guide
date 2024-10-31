@@ -17,7 +17,7 @@
 
 <details>
   <summary>prerequisites</summary>
-    <ul>dynamic programming</ul>
+    dynamic programming
 </details>
 
 <details>
@@ -35,7 +35,7 @@
     <li>กรณีแถวเลขคู่:</li>
     <p>$dp(i, j) = \max(dp(i-1, j) + x_{ij}, \ dp(i-1, j-1) + x_{ij})$</p>
   </ul>
-  <p><ins>เราจะได้ maximum path sum เป็นค่า maximum ของ $dp$ ในแถวที่ $m-1$: $max(\{dp(m-1, j)\})$</ins> ตอนนี้เราเหลือปัญหาของการนับจำนวนวิธีซึ่งก็สามารถแก้ด้วย dynamic programming ได้</p>
+  <p><ins>เราจะได้ maximum path sum</ins> เป็นค่า maximum ของ $dp$ ในแถวที่ $m-1$: $max(\{dp(m-1, j)\})$ ตอนนี้เราเหลือปัญหาของการนับจำนวนวิธีซึ่งก็สามารถแก้ด้วย dynamic programming ได้</p>
   <p>กำหนดให้ $ways(i, j)$ เป็นจำนวนวิธีในการเดินจาก cell ไหนก็ได้ในแถวที่ 0 จนมาถึง cell $(i, j)$ โดยเดินให้ได้ maximum path sum จนถึง $(i, j)$</p>
   <p><ins>Base case</ins></p>
   <ul>
@@ -64,7 +64,7 @@
       <p>$ways(i, j) = ways(i-1, j) + ways(i-1, j-1)$</p>
     </ol>
   </ul>
-  <p><ins>ทำให้คำตอบของจำนวนวิธีก็คือ $\sum ways(m-1, j)$ ที่มี $dp(m-1, j)$ มากที่สุด</ins></p>
+  <p><ins>ทำให้คำตอบของจำนวนวิธีก็คือ</ins> $\sum ways(m-1, j)$ ที่มี $dp(m-1, j)$ มากที่สุด</p>
   <details>
   <summary>Memory optimization</summary>
   <p>ถ้าเราทำ $dp$ ปกติจะทำให้เราต้องสร้างตารางขนาด $NM$ ซึ่งเกินจำเป็นเนื่องจาก transition $dp$ ที่เราใช้ในการคิดค่า $dp$ ในแถว $i$ มาจากค่าแถวที่ $i-1$. ทำให้เราเก็บจาก $dp[M][N]$ เหลือแค่ $dp[2][N]$ ได้ โดยเราจะให้<ins>แถวที่ 0 ใช้เก็บค่า $dp$ ในแถวเลขคู่ และแถวที่ 1 ใช้เก็บค่า $dp$ ในแถวเลขคี่</ins> ซึ่งสามารถหาแถวที่ใช้เก็บได้ด้วยการหาเศษจากการหารด้วยสอง หรือทำการ bitwise & กับ 1</p>
