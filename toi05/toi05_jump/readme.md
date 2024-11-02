@@ -41,7 +41,7 @@
 
 </details>
 
-[ac code sol1](./toi05_jump_bsearch.cpp)
-[ac code sol2](./toi05_jump_prefsum.cpp)
-[ac code sol3](./toi05_jump_slidingwindow.cpp)
+[ac code sol1](./toi05_jump_bsearch.cpp) <br>
+[ac code sol2](./toi05_jump_prefsum.cpp) <br>
+[ac code sol3](./toi05_jump_slidingwindow.cpp) <br>
 [ac code sol4](./toi05_jump_twopointer.cpp)
