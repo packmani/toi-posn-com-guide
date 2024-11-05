@@ -73,4 +73,6 @@
   </details>
 </details>
 
-[ac code](empty)
+[ac code sol1](./toi08_electricity_slidingwindow.cpp)<br>
+[ac code sol2](./toi08_electricity_multiset.cpp)<br>
+[ac code sol3](./toi08_electricity_segtree.cpp)
