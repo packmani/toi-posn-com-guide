@@ -62,7 +62,7 @@
   </details>
 
   <details>
-    <summary>Multiset Sol</summary>
+    <summary>Multiset Sol $(O(NlogN))$</summary>
     <p>เราสามารถ simulate การทำ sliding window (มองว่าเป็นการลบออก 1 ตัว แล้ว เพิ่ม 1 ตัวใหม่) พร้อมกับการเก็บค่าน้อยที่สุดได้ด้วย std::multiset.  multiset จะใช้เก็บ $dp(j)$ ที่เป็นไปได้ ($j ≥ i-k$) เพื่อใช้ในการหา $dp(i)$. ในแต่ละรอบ $i$ เราจะทำ </p> 
    <ol>
       <li>ลบตัวเก่า: ลบ $dp(j)$ ที่ $j < i-k$ ออก โดนที่เราจะลบ $dp(i-k-1)$ ออกจาก multiset <br><code>ms.erase(ms.find(dp[i-k-1]));</code></li>
