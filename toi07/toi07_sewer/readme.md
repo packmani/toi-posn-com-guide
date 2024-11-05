@@ -16,7 +16,7 @@
 
   <p>การที่น้ำสองสายจะมาบรรจบกัน จะเกิดขึ้นเมื่อมีสองเส้นทางมาบรรจบกันที่เวลาเดียวกัน. โดยเราก็แค่ check ในตอนกำลังจะ transverse จาก $(i, j)$ ไป $(x, y)$ เราก็ดูว่าเราเคยไป $(x, y)$ หรือยัง ถ้าเคยไปแล้ว เรา check ว่า $D(i, j) = D(x, y)$ ไหม ถ้าใช่ก็ตอบเลย เพราะ bfs การันตี shortest path อยู่แล้ว</p>
 
-  <p align="center"><video src="" width="600" autoplay></video></p>
+  <p align="center"><video src="https://github.com/user-attachments/assets/fb8a3314-8a26-4df8-8b3a-dceaad3e1263" width="600" autoplay></video></p>
 </details>
 
 [ac code](./toi07_sewer.cpp)
