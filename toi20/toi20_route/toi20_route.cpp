@@ -2,12 +2,12 @@
 using namespace std;
 int n,m,num;
 vector<int> weights;
+
 vector<pair<int,int>> route(int N,vector<int> W) {
   vector<pair<int,int>> result;
   int edges = W.size();
   int nodes = 1;
   vector<int> curnodes;
-
   //greedily try to stick as many nodes together until the unused nodes form a tree
   //edges-result.size() -> edges left, N-nodes -> edges required to form a tree
   while(edges-result.size()>N-nodes)
@@ -20,16 +20,15 @@ vector<pair<int,int>> route(int N,vector<int> W) {
     }
     nodes++;
   }
-
   //connect to other nodes to form a tree
   for(int i=nodes;i<N;i++)
-  {
     result.push_back({i,i+1});
-  }
+  
   return result;
 }
 
-/* for testing
+//------------------FOR TESTING----------------------------
+/*
 int32_t main()
 {
   freopen("input.txt","r",stdin);
