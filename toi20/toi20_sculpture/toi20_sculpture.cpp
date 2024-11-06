@@ -26,7 +26,6 @@ int32_t main()
 	//fill dp table
 	minweight[0]=0;
 	maxcap[0]=INT_MAX;
-
 	//first pass, find best height ending at every i 
 	for(int i=0;i<n;i++)
 	{
@@ -39,7 +38,6 @@ int32_t main()
 			}
 		}
 	}
-
 	//second pass, find best height with n-i stones (doesnt have to start at the n-ith stone)
 	for(int i=n-1;i>=0;i--)
 	{
@@ -49,7 +47,6 @@ int32_t main()
 			if(maxcap[k]!=LLONG_MIN) bestsz2[i]=max(bestsz2[i],k);
 		}
 	}
-
 	//third pass, check every stone as the ending and put the weight helper on
 	//and combine height from before helper and after helper
 	for(int i=0;i<n-1;i++)
@@ -65,7 +62,6 @@ int32_t main()
 			ansvec.push_back(i+1);
 		}
 	}
-
 	cout << ans <<'\n';
 	for(int i=0;i<ansvec.size();i++)
 		cout << ansvec[i] << ' ' ;
