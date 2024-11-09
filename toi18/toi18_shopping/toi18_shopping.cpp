@@ -17,10 +17,8 @@ int32_t main()
 		int temp=0;
 		if(num<=0) temp = abs(num);
 		else points[i]=num;
-
 		points[i]+=points[i-1];
 		price.push_back(price[i-1]+temp);
-		
 	}
 	price.push_back(LLONG_MAX);
 	points[n+1]=points[n];
