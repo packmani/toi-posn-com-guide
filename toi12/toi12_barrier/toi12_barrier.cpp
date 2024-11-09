@@ -1,22 +1,21 @@
 //toi12_barrier
-//sliding window minimum using deque
-#include <cstdio>
-#include <queue>
-using namespace std;
-int qs[6000000];
+//sliding window minimum
+#include <stdio.h>
+#define N 6000001
+#define dN 12000001
+int qs[N], dq[dN], f, b, mx, l;
+int sz(){ return b-f+1;}
 signed main(){
-    int n, w, prf_sum = 0, mx = 0, sz = 0; scanf("%d %d", &n, &w);
-    deque<int> dq;
-    for(int i = 0, v; i<n; ++i){
-        scanf("%d", &v); prf_sum += v; qs[i] = prf_sum;
-        if(i < w && (qs[i] > mx || (qs[i] == mx && i+1 < sz))){mx = qs[i]; sz = i+1;}
-        while(!dq.empty() && dq.front() < i-w) dq.pop_front();
-        if(!dq.empty()){
-            int F = dq.front(), tmp = qs[i] - qs[F];
-            if(tmp > mx || (tmp == mx && i-F < sz)){mx = tmp; sz = i-F;}
+    int n, w; scanf("%d %d", &n, &w);
+    dq[f = b = n] = 0;
+    for(int i = 1, j; i<=n; dq[++b] = i++){
+        scanf("%d", qs+i); qs[i] += qs[i-1];
+        while(sz() && dq[f] < i-w) f++;
+        if(sz()){
+            int tmp = qs[i] - qs[j = dq[f]];
+            if(tmp > mx || (tmp == mx && i-j < l)) mx = tmp, l = i-j;
         }
-        while(!dq.empty() && qs[dq.back()] >= qs[i]) dq.pop_back();
-        dq.push_back(i);
+        while(sz() && qs[dq[b]] >= qs[i]) b--;
     }
-    printf("%d\n%d", mx, sz);
+    printf("%d\n%d", mx, l);
 }
