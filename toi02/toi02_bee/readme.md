@@ -25,5 +25,5 @@
   <p>Bonus: find $n^{th}$ Fibonacci number using Matrix exponentiation: https://usaco.guide/plat/matrix-expo?lang=cpp</p>
 </details>
 
-[ac code](./toi02_dp.cpp)<br>
-[ac code bonus sol](./toi02_matrix_expo.cpp)
+[ac code](./toi02_bee_dp.cpp)<br>
+[ac code bonus sol](./toi02_bee_matrix_expo.cpp)
