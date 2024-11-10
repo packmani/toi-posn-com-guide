@@ -1,4 +1,4 @@
-//TOI20-Lover
+//TOI20-Lover-Binary Search
 //31/05/24
 #include <cstdio>
 #include <algorithm>
