@@ -61,9 +61,9 @@
   <p>เราสามารถสร้างรูปกรอบได้จากการลบรูปสี่เหลี่ยมรูปเล็กออกจากสี่เหลี่ยมรูปใหญ่</p>
   <details>
     <summary><code>image</code></summary>
-    <p align="center"><img width="600" src="https://github.com/user-attachments/assets/d33b6a87-9234-4c80-adf0-2f0ecb111d6a" /></p>
-    <p align="center"><img width="600" src="https://github.com/user-attachments/assets/ff55a64e-251c-48ac-95e4-c0948fab9a2d" /></p>
-    <p align="center"><video src="https://github.com/user-attachments/assets/a3f759b6-cd64-4afa-b282-5a0e458843b1" width="600" autoplay></video></p>
+    <p align="center"><img width="400" src="https://github.com/user-attachments/assets/d33b6a87-9234-4c80-adf0-2f0ecb111d6a" /></p>
+    <p align="center"><img width="400" src="https://github.com/user-attachments/assets/ff55a64e-251c-48ac-95e4-c0948fab9a2d" /></p>
+    <p align="center"><video src="https://github.com/user-attachments/assets/a3f759b6-cd64-4afa-b282-5a0e458843b1" width="400" autoplay></video></p>
   </details>
   <p>โดยเราสามารถใช้ 2D prefix sum ในการหาผลบวกในรูปสี่เหลี่ยมได้</p>
   <ul>
