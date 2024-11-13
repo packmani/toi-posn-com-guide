@@ -43,6 +43,6 @@
   </ul>
 </details>
 
-[ac code sol1](./toi19_wizards.cpp) <br>
-[ac code sol2](./toi19_wizards_2.cpp)
+[ac code sol1](./toi09_wizards.cpp) <br>
+[ac code sol2](./toi09_wizards_2.cpp)
 
