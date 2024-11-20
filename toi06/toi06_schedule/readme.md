@@ -19,7 +19,9 @@ sweep line
 <details>
 <summary>prerequisites</summary>
 <ul>
-<li> sweep line [Line Sweep Algorithms and Coordinate Compression](https://www.youtube.com/watch?v=2noC-1bv5Kc&t=3477s) </li>
+<li>sweep line</li>
+    
+[Line Sweep Algorithms and Coordinate Compression](https://www.youtube.com/watch?v=2noC-1bv5Kc&t=3477s) 
 </ul>
 </details>
 <details>
