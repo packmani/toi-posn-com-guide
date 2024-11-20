@@ -1,4 +1,4 @@
-## toi6_jail
+## toi06_jail
 [problem statement](https://programming.in.th/tasks/toi6_jail)
 
 <details>
