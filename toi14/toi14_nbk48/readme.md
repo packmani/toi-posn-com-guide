@@ -1,4 +1,5 @@
 ## toi14_nbk48
+[problem statement](https://programming.in.th/tasks/toi14_nbk48)
 <details>
     <summary>hints</summary>
         <ul>
